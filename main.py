@@ -13,3 +13,4 @@ async def telemetry(req: Request):
     ts = datetime.utcnow().isoformat()
     print(f"{ts} telemetry={data}")
     return {"received": True, "ts": ts}
+
