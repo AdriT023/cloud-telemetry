@@ -14,3 +14,4 @@ async def telemetry(req: Request):
     print(f"{ts} telemetry={data}")
     return {"received": True, "ts": ts}
 
+
